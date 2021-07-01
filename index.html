@@ -6,14 +6,30 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My best demo project!</title>
+
+  <style>
+    .home__title {
+        font-size: 30px;
+        color: red;
+    }
+
+    .home__title-secondary {
+        font-size: 16px;
+        color: red;
+    }
+
+    .home__author {
+        color: #ccc;
+    }
+  </style>
 </head>
-<body>
-  <h1>Hello!</h1>
-  <h2>Here is the best demo project!!!</h2>
+<body class="home">
+  <h1 class="home__title">Hello!</h1>
+  <h2 class="home__title-secondary">Here is the best demo project!!!</h2>
   <p>Good luck.</p>
   
   <hr>
 
-  <p><i>Oleg</i></p>
+  <p class="home__author"><i>Oleg Vysotsky</i></p>
 </body>
 </html>
