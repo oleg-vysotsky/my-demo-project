@@ -1,8 +1,3 @@
-# Title
+# My demo project
 
-## Subtitle
-
-text
-
-1. Item 1
-2. Item 2
+Please, clone it!
